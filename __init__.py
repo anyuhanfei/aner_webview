@@ -2,9 +2,9 @@
 配置
 '''
 
-窗口标题 = 'web浏览器'
+窗口标题 = 'aner_web浏览器'
 
-url地址 = 'http://www.anyuhanfei.com'
+url地址 = 'http://192.168.0.77:6001/admin'
 
 '''最小尺寸控制'''
 最小宽度 = 1200
