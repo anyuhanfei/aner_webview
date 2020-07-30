@@ -41,7 +41,7 @@ class Window(QWidget):
         self.height = self.desktop.screenGeometry().height()
 
         # 设置窗口
-        self.setWindowTitle('{title_name}--{url}'.format(title_name=self.title_name, url=self.url))
+        self.setWindowTitle('{title_name}'.format(title_name=self.title_name, url=self.url))
         self.move(self.width * 0.05, self.height * 0.03)
         self.resize(self.width * 0.9, self.height * 0.87)
         self.setMinimumSize(init.最小宽度, init.最小高度)
